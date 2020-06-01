@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    
+    background: #68BB59;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.75rem 0rem 0.75rem 0rem;
+    padding: 0.75rem 0rem 0.75rem 0rem;
+}
+.h4-header{
+    text-align: center;
+    margin: 0.75rem 0.5rem 0 0.5rem;
+    padding: 0.75rem 0.5rem 0 0.5rem;
+    line-height: 1.6rem;
+    font-weight: normal
+}
+.bmi-grid{
+    display: grid;
+    justify-content: space-around;
+    border: solid 2px lightgrey;
+    margin: 5% 15% 15% 15%;
+    background: #4C9A2A;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(7, 75px);
+    grid-row-gap: 20px;
+    
+}
+h6{
+    line-height: 1.4rem;
+}
+.h4-grid{
+    font-size: 21px;
+    text-align: center;
+    border-bottom: solid 2px lightgrey;
+    background: #ACDF87;
+    padding: 15px;
+}
+#grid-height{
+    margin: 20px;
+    padding: 10px;
+}
+#grid-weight{
+    margin: 20px;
+    padding: 10px;
+}
+#grid-age{
+    margin: 20px;
+    padding: 10px;
+}
+#grid-sex{
+    margin: 20px;
+    padding: 10px;
+}
+#grid-calculate{
+    margin: 10px;padding: 10px;
+}
+#grid-result{
+    margin: 20px;
+    padding: 10px;
+}
+#bmi-ranges{
+
+}
+input{
+    border-radius: 5%;
+    border: solid 1px lightgrey;
+    height: 2rem;
+}
+#male{
+    margin-left: 10px;
+}
+#female{
+    margin-left: 10px;
+}
+button{
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: solid 2px lightgrey;
+    background: #ACDF87;
+    padding: 15px;
+    margin-left: 10px;
+}
+.big{
+font-size: 1.1rem;
+}
+.small{
+font-size: 0.9rem;
+font-weight: normal;
+}

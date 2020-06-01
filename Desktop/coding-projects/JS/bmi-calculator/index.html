@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h2>BMI healthy weight calculator</h2>
+    <h4 class="h4-header">use this calculator to check your body mass index and find out if you are a healthy weight</h4>
+</header>
+    <main>
+        <section id="calc">
+        <div class="bmi-grid">
+            <div id="grid-head">
+                <h4 class="h4-grid">BMI Calculator</h4>
+            </div>
+            <div id="grid-height">
+                <h6 class="big">Height</h6>
+                <h6 class="small">Meters</h6>
+                <input type="number" id="input-height" placeholder="For example: 1.80" required>
+            </div>
+            <div id="grid-weight">
+                <h6 class="big">Weight</h6>
+                <h6 class="small">Kilograms</h6>
+                <input type="number" id="input-weight" placeholder="For example: 90" required>
+            </div>
+            <div id="grid-age">
+                <h6 class="big">Age</h6>
+                <input type="number" id="input-age" placeholder="For example: 25" required>
+            </div>
+            <div id="grid-sex">
+                <h6 class="big">Sex</h6>
+                <form>
+                    <input type="radio" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" value="female">
+                    <label for="female">Female</label>
+                </form>
+            </div>
+            <div id="grid-calculate">
+                <button type="button" id="sendBtn">Calculate</button>
+            </div>
+            <div id="grid-result">
+
+            </div>
+        </div>
+    </section>
+    <section id="bmi-ranges">
+    <p>
+        Understanding Your Body Mass Index
+If your BMI is below 18.5: Your BMI is considered underweight. Keep in mind that an underweight BMI calculation may pose certain health risks. Please consult with your healthcare provider for more information about BMI calculations.
+<br>
+If your BMI is between 18.5-24.9: Your BMI is considered normal. This healthy weight helps reduce your risk of serious health conditions and means you’re close to your fitness goals.
+<br>
+If your BMI is between 25-29.9: Your BMI is considered overweight. Being overweight may increase your risk of cardiovascular disease. Consult with your healthcare provider and consider making lifestyle changes through healthy eating and fitness to improve your health.
+<br>
+If your BMI is above 30: Your BMI is considered obese. People with obesity are at increased risk for many diseases and health conditions, including cardiovascular disease, high blood pressure (Hypertension), Type 2 diabetes, breathing problems and more. Consult with your healthcare provider and consider making lifestyle changes through healthy eating and fitness to improve your overall health and quality of life.
+        </p>
+    </section>
+    </main>
+
+</body>
+</html>
