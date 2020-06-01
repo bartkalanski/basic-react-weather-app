@@ -29,11 +29,14 @@ h2{
     background: #4C9A2A;
     grid-template-columns: 100%;
     grid-template-rows: repeat(7, 75px);
-    grid-row-gap: 20px;
+    grid-row-gap: 30px;
+
+
     
 }
 h6{
     line-height: 1.4rem;
+    margin-bottom: 6px;
 }
 .h4-grid{
     font-size: 21px;
@@ -41,29 +44,43 @@ h6{
     border-bottom: solid 2px lightgrey;
     background: #ACDF87;
     padding: 15px;
+    
+    
 }
 #grid-height{
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
     padding: 10px;
+    align-self: center;
+    
 }
 #grid-weight{
-    margin: 20px;
+    margin: 0 20px 20px 20px;
     padding: 10px;
+    border-top: solid lightgrey 1px;
+    align-self: center;
 }
 #grid-age{
-    margin: 20px;
+    margin: 0 20px;
     padding: 10px;
+    border-top: solid lightgrey 1px;
+    align-self: center;
 }
 #grid-sex{
-    margin: 20px;
+    margin: 0 20px;
     padding: 10px;
+    border-top: solid lightgrey 1px;
+    align-self: center;
 }
 #grid-calculate{
-    margin: 10px;padding: 10px;
+    margin: 10px;
+    padding: 10px;
+    border-top: solid lightgrey 1px;
+    align-self: center;
 }
 #grid-result{
     margin: 20px;
     padding: 10px;
+    display: none;
 }
 #bmi-ranges{
 
@@ -72,6 +89,10 @@ input{
     border-radius: 5%;
     border: solid 1px lightgrey;
     height: 2rem;
+    width: 50%;
+    padding-left: 10px;
+    
+
 }
 #male{
     margin-left: 10px;

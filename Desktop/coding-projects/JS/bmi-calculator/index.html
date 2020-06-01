@@ -13,7 +13,7 @@
     <h4 class="h4-header">use this calculator to check your body mass index and find out if you are a healthy weight</h4>
 </header>
     <main>
-        <section id="calc">
+        <form id="form" type="submit">
         <div class="bmi-grid">
             <div id="grid-head">
                 <h4 class="h4-grid">BMI Calculator</h4>
@@ -34,18 +34,16 @@
             </div>
             <div id="grid-sex">
                 <h6 class="big">Sex</h6>
-                <form>
                     <input type="radio" id="male" value="male">
                     <label for="male">Male</label>
                     <input type="radio" id="female" value="female">
                     <label for="female">Female</label>
-                </form>
             </div>
             <div id="grid-calculate">
                 <button type="button" id="sendBtn">Calculate</button>
             </div>
             <div id="grid-result">
-
+                <h6>Result: </h6>
             </div>
         </div>
     </section>
